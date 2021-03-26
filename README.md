@@ -1,6 +1,6 @@
 # Plagiarism-Detector
 Simple Plagiarism Detector deployed on AWS.
-This is an academic project to predict whether a given answer text is a plagiarized version of the source text. 
+This is an academic project to predict whether a given answer text is a plagiarized version of the source text. This project introduces the concept of using an n-gram and Longest Common Subsequence (LCS) to determine levels of plagiarism.
 
 The first 2 notebooks `1_Data_Exploration.ipynb` and `2_Plagiarism_Feature_Engineering.ipynb` walk through some simple data exploration followed by feature engineering. The last 2 notebooks demonstrate two different machine learning models that are used to classify a given text as plagiarized or NOT plagiarized. `3_Training_a_Model-Pytorch.ipynb` uses a custom built neural network performing binary classification on the output of the model using Pytorch. The other notebook `3_Training_a_Model.ipynb` uses a linear SVM from the Scikit-Learn library. This project assumes some familiarity with Amazon SageMaker, Scikit-learn, Pytorch, and natural language processing methods.
 
