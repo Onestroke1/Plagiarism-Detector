@@ -20,7 +20,7 @@ The main code for this project is provided in the following notebook files: `1_D
 The dataset consists of 95 answer-text files and 5 source-text files. This data is a slightly modified version of a dataset created by Paul Clough (Information Studies) and Mark Stevenson (Computer Science), at the University of Sheffield. The data collection and corpus can be found at their university webpage https://ir.shef.ac.uk/cloughie/resources/plagiarism_corpus.html.
 
 ## Run
-Simply launch a Jupyter Notebook instance using AWS' SageMaker and clone this Git repository `https://github.com/Onestroke1/Sentiment-Analysis-Website.git`.
+Simply launch a Jupyter Notebook instance using AWS' SageMaker and clone this Git repository https://github.com/Onestroke1/Plagiarism-Detector.
 Running the code in each Jupyter Notebook in numerical order will walk you through each step that was done to achieve the final results. 
 
 
